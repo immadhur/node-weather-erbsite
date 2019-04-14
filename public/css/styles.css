@@ -68,13 +68,13 @@ button{
 #tannu{
     display: block;
     align-self: center;
-    margin-left: 60px;
+    margin-left: 180px;
     font-size: 20px;
     color:rgb(235, 216, 182)
 }
 
 img{
     height:300px;
-    width:200px;
-    box-shadow: 0 0 8px 8px white inset;
+    width:500px;
+    box-shadow: 0 0 8px 8px white;
 }
