@@ -1,7 +1,3 @@
-console.log('client side JS');
-
-
-
 let form = document.getElementById('form');
 let searchText = document.getElementById('search');
 let msg1 = document.querySelector('#msg1');
