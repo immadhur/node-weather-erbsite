@@ -1,5 +1,5 @@
-const locationId = require('./getLocationid.js')
-const weather = require('./getWeather.js')
+const locationId = require('./getLocationid')
+const weather = require('./getWeather')
 
 const express = require('express');
 const path = require('path');
