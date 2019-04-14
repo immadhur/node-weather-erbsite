@@ -1,0 +1,61 @@
+h1{
+    color:rgb(141, 88, 88);
+    font-size:60px
+}
+
+h2{
+    color: grey;
+    font-size:30px
+}
+
+body{
+    background: black;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+    
+}
+
+#error {
+    font-size: 60px;
+    color:red;
+    font-weight: 1000
+}
+
+a{
+    color:goldenrod;
+    text-decoration: none;
+    font-size:22px;
+}
+
+.footer{
+    color:#918c8c;
+    border-top:1px solid #555555;
+    margin:16px;
+    padding: 16px 0;
+}
+
+.main-content{
+    flex-grow: 1;
+    align-self: center;
+    text-align: center;
+}
+p{
+    color: grey;
+    font-size:18px
+}
+
+input{
+    padding:8px;
+    border: 1px solid #cccccc;
+    background: #ccc9c9
+}
+
+button{
+    padding: 8px;
+    background: #5f5b5b;
+    color: white;
+    border: 1px solid #464242;
+    margin-left: 12px
+}
