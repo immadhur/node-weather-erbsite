@@ -4,6 +4,7 @@ const weather = require('./getWeather.js')
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
+const port=process.env.PORT || 2123;
 
 publicDir = path.join(__dirname, '../public');
 viewsDir = path.join(__dirname, '../template/views');
@@ -77,6 +78,6 @@ app.get('*', (req, res) => {
     });
 })
 
-app.listen(2123, () => {
+app.listen(port, () => {
     console.log('Server started');
 })

@@ -59,3 +59,22 @@ button{
     border: 1px solid #464242;
     margin-left: 12px
 }
+
+#divImg{
+    margin: 0 40px;
+    align-self: center;
+}
+
+#tannu{
+    display: block;
+    align-self: center;
+    margin-left: 60px;
+    font-size: 20px;
+    color:rgb(235, 216, 182)
+}
+
+img{
+    height:300px;
+    width:200px;
+    box-shadow: 0 0 8px 8px white inset;
+}

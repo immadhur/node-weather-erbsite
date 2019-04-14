@@ -8,7 +8,7 @@ form.addEventListener('submit', (e) => {
     msg1.textContent = 'Loading...';
     msg2.textContent = '';
     let location = searchText.value;
-    fetch(`http://madhur:2123/weather?city=${location}`).then((response) => {
+    fetch(`/weather?city=${location}`).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 msg1.textContent = data.error;
